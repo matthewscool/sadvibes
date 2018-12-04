@@ -29,19 +29,27 @@ h1 {
   -ms-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  background-image: linear-gradient(45deg, 
-                    #A9A9A9, 
-                    #A9A9A9,
-                    #A9A9A9,
-                    #A9A9A9);
+  background-image: linear-gradient(45deg, #7794ff, #44107A, #FF1361, #FFF800);
   animation: .8s shake infinite alternate;
 }
 
 @keyframes shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
+  0% {
+    transform: skewX(-15deg);
+  }
+  5% {
+    transform: skewX(15deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
 }
